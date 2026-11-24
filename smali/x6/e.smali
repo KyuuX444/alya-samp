@@ -58,15 +58,11 @@
 
     sput-boolean v1, Lx6/e;->b:Z
 
-    const/4 v1, 0x0
+    const/4 v1, 0x1
 
     sput-boolean v1, Lx6/e;->c:Z
 
-    const-wide v1, -0x1b75b156dcf7L
-
-    invoke-static {v1, v2}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v1
+    const-string v1, "Copyright © Kyu manusia biasa"
 
     sput-object v1, Lx6/e;->d:Ljava/lang/String;
 

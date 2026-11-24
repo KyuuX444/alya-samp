@@ -1197,116 +1197,11 @@
 .end method
 
 .method public final c()Z
-    .locals 5
+    .locals 1
 
-    .line 1
-    const-wide v0, -0x2f63b156dcf7L
+    const/4 v0, 0x0
 
-    invoke-static {v0, v1}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-wide v1, -0x2f55b156dcf7L
-
-    invoke-static {v1, v2}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v0
-
-    const/4 v1, 0x1
-
-    const/4 v2, 0x0
-
-    if-eqz v0, :cond_0
-
-    const-wide v3, -0x2f42b156dcf7L
-
-    :try_start_0
-    invoke-static {v3, v4}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v0, v3, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
-
-    move-result-object v0
-    :try_end_0
-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    return v1
-
-    :cond_0
-    move-object v0, v2
-
-    :goto_0
-    if-eqz v0, :cond_1
-
-    iget-object v2, v0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
-
-    :cond_1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-wide v3, -0x2f2eb156dcf7L
-
-    invoke-static {v3, v4}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-wide v3, -0x2f08b156dcf7L
-
-    invoke-static {v3, v4}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v3, p0, Lcom/alyasamp/launcher/UpdateService;->B:Ljava/lang/String;
-
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-wide v3, -0x2cf5b156dcf7L
-
-    invoke-static {v3, v4}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v3, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    if-eqz v2, :cond_3
-
-    iget-object v0, p0, Lcom/alyasamp/launcher/UpdateService;->B:Ljava/lang/String;
-
-    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    goto :goto_1
-
-    :cond_2
-    const/4 v1, 0x0
-
-    :cond_3
-    :goto_1
-    return v1
+    return v0
 .end method
 
 .method public final d(Lu6/h;)V

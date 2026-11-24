@@ -722,11 +722,7 @@
 
     .line 335
     :catch_2
-    sget-object p1, Lu6/d;->t:Lu6/d;
-
-    .line 336
-    .line 337
-    goto :goto_1
+    goto :cond_1
 
     .line 338
     :goto_2
