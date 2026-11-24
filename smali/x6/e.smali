@@ -40,17 +40,15 @@
 
     move-result-object v1
 
-    const-wide v2, -0x1b98b156dcf7L
-
-    invoke-static {v2, v3}, Lr6/a;->a(J)Ljava/lang/String;
-
-    move-result-object v2
+    const-string v2, "/Android/data/com.alyasamp.game/"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     sput-object v0, Lx6/e;->a:Ljava/io/File;
 
@@ -2861,6 +2859,15 @@
     .locals 2
 
     .line 1
+    invoke-virtual {p0}, Ljava/io/File;->getParentFile()Ljava/io/File;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_mkdirs
+
+    invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
+
+    :cond_mkdirs
     new-instance v0, Ljava/io/BufferedWriter;
 
     new-instance v1, Ljava/io/FileWriter;

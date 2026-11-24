@@ -10,9 +10,9 @@
 
 .field public static final DEBUG:Z = false
 
-.field public static final VERSION_CODE:I = 0x67
+.field public static final VERSION_CODE:I = 0x68
 
-.field public static final VERSION_NAME:Ljava/lang/String; = "1.0.3"
+.field public static final VERSION_NAME:Ljava/lang/String; = "1.0.4"
 
 
 # direct methods

@@ -327,5 +327,39 @@
     move-result-object p0
 
     :cond_alya_json
+    const-string v0, "com.nezukosamp.game"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_pkg_replace
+
+    const-string v0, "com.nezukosamp.game"
+
+    const-string v1, "com.alyasamp.game"
+
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
+
+    :cond_pkg_replace
+    const-string v0, "com.nezukosamp"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_pkg2_replace
+
+    const-string v0, "com.nezukosamp"
+
+    const-string v1, "com.alyasamp"
+
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
+
+    :cond_pkg2_replace
     return-object p0
 .end method

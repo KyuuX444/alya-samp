@@ -524,25 +524,7 @@
     goto/16 :goto_0
 
     :cond_8
-    if-eqz v5, :cond_9
-
     goto/16 :goto_0
-
-    :cond_9
-    invoke-virtual {v7}, Ljava/io/File;->length()J
-
-    move-result-wide v11
-
-    cmp-long v7, v11, v9
-
-    if-nez v7, :cond_a
-
-    goto/16 :goto_0
-
-    :cond_a
-    if-nez v8, :cond_b
-
-    goto :goto_2
 
     .line 9
     :cond_b

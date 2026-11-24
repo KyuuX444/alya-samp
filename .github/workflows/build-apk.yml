@@ -43,16 +43,7 @@ jobs:
       - name: Align and Sign APK
         run: |
           zipalign -v -p 4 build/alya-unsigned.apk build/Alya-SAMP-aligned.apk
-          keytool -genkeypair -v \
-            -keystore alya.keystore \
-            -alias alya \
-            -keyalg RSA \
-            -keysize 2048 \
-            -validity 10000 \
-            -storepass alya123 \
-            -keypass alya123 \
-            -dname "CN=Alya SAMP, OU=Alya, O=Alya, L=Jakarta, ST=Jakarta, C=ID"
-          apksigner sign --ks alya.keystore --ks-key-alias alya --ks-pass pass:alya123 --key-pass pass:alya123 --out build/Alya-SAMP.apk build/Alya-SAMP-aligned.apk
+          apksigner sign --ks keystore/release.keystore --ks-key-alias alya --ks-pass pass:alya123 --key-pass pass:alya123 --out build/Alya-SAMP.apk build/Alya-SAMP-aligned.apk
           apksigner verify build/Alya-SAMP.apk
 
       - name: Upload APK Artifact
@@ -66,9 +57,9 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.2
-          name: "Alya SA-MP Mobile v1.0.2"
-          body: "Alya SA-MP Mobile v1.0.2 - Fixed 'Versi client tidak didukung', replaced in-game logo and launcher logo with Alya, updated branding/copyright to Kyu manusia biasa."
+          tag_name: v1.0.4
+          name: "Alya SA-MP Mobile v1.0.4"
+          body: "Alya SA-MP Mobile v1.0.4 - Fix update prompt loop, fix add favorite server, fix download stuck at 0%, and permanent release keystore."
           files: build/Alya-SAMP.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

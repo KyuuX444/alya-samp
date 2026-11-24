@@ -4,5 +4,5 @@ dist/
 *.idsig
 .idea/
 .gradle/
-*.keystore
+!keystore/release.keystore
 *.jks
