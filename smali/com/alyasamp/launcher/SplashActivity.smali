@@ -426,6 +426,10 @@
     .line 17
     invoke-super {p0, p1}, Landroidx/fragment/app/u;->onCreate(Landroid/os/Bundle;)V
 
+    invoke-static {p0}, Lcom/alyasamp/game/LibHelper;->ensureNativeLibs(Landroid/content/Context;)V
+
+    invoke-static {p0}, Lcom/alyasamp/game/LibHelper;->ensureSampIni(Landroid/content/Context;)V
+
     .line 18
     .line 19
     .line 20

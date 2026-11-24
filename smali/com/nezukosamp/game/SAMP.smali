@@ -23,6 +23,8 @@
 
     sput-object v0, Lcom/nezukosamp/game/SAMP;->TAG:Ljava/lang/String;
 
+    invoke-static {}, Lcom/alyasamp/game/LibHelper;->preloadLibs()V
+
     const-wide v0, -0x3be2b156dcf7L
 
     :try_start_0
@@ -92,6 +94,10 @@
     .locals 3
 
     invoke-super {p0, p1}, Lcom/rockstargames/gtasa/GTASA;->onCreate(Landroid/os/Bundle;)V
+
+    invoke-static {p0}, Lcom/alyasamp/game/LibHelper;->ensureNativeLibs(Landroid/content/Context;)V
+
+    invoke-static {p0}, Lcom/alyasamp/game/LibHelper;->ensureSampIni(Landroid/content/Context;)V
 
     const-wide v0, -0x3affb156dcf7L
 

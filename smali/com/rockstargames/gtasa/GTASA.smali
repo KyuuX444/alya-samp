@@ -50,6 +50,8 @@
 
     invoke-static {v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
+    invoke-static {}, Lcom/alyasamp/game/LibHelper;->preloadLibs()V
+
     const-string v0, "ImmEmulatorJ"
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -343,6 +345,10 @@
     invoke-virtual {p0}, Lcom/wardrumstudios/utils/WarMedia;->RestoreCurrentLanguage()V
 
     invoke-super {p0, p1}, Lcom/wardrumstudios/utils/WarMedia;->onCreate(Landroid/os/Bundle;)V
+
+    invoke-static {p0}, Lcom/alyasamp/game/LibHelper;->ensureNativeLibs(Landroid/content/Context;)V
+
+    invoke-static {p0}, Lcom/alyasamp/game/LibHelper;->ensureSampIni(Landroid/content/Context;)V
 
     invoke-virtual {p0, v3}, Lcom/wardrumstudios/utils/WarGamepad;->SetReportPS3As360(Z)V
 
