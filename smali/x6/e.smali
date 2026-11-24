@@ -772,6 +772,15 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
+    invoke-virtual {v0}, Ljava/io/File;->getParentFile()Ljava/io/File;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_f_parent_ok
+
+    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
+
+    :cond_f_parent_ok
     return-object v0
 .end method
 
@@ -2470,6 +2479,15 @@
 
     invoke-virtual {p0, v2, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
+    invoke-virtual {v0}, Ljava/io/File;->getParentFile()Ljava/io/File;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_parent_ok
+
+    invoke-virtual {p0}, Ljava/io/File;->mkdirs()Z
+
+    :cond_parent_ok
     invoke-virtual {v0}, Ljava/io/File;->createNewFile()Z
 
     invoke-static {v0, v3}, Lx6/e;->m(Ljava/io/File;Lorg/json/JSONObject;)V

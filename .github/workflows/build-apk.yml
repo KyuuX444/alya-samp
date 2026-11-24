@@ -57,9 +57,9 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.4
-          name: "Alya SA-MP Mobile v1.0.4"
-          body: "Alya SA-MP Mobile v1.0.4 - Fix update prompt loop, fix add favorite server, fix download stuck at 0%, and permanent release keystore."
+          tag_name: v1.0.5
+          name: "Alya SA-MP Mobile v1.0.5"
+          body: "Alya SA-MP Mobile v1.0.5 - Fix crash on play button, force lite data mode, fix SAMP directory creation for settings."
           files: build/Alya-SAMP.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
