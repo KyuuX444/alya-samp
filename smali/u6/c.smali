@@ -56,7 +56,7 @@
 
     .line 9
     .line 10
-    check-cast p1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast p1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 11
     .line 12
@@ -76,7 +76,7 @@
 
     .line 19
     .line 20
-    check-cast p1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast p1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 21
     .line 22
@@ -119,11 +119,11 @@
 
     .line 41
     .line 42
-    check-cast p1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast p1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 43
     .line 44
-    invoke-static {p1}, Lcom/nezukosamp/launcher/SplashActivity;->g(Lcom/nezukosamp/launcher/SplashActivity;)V
+    invoke-static {p1}, Lcom/alyasamp/launcher/SplashActivity;->g(Lcom/alyasamp/launcher/SplashActivity;)V
 
     .line 45
     .line 46
@@ -150,11 +150,11 @@
 
     .line 56
     .line 57
-    check-cast v0, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast v0, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 58
     .line 59
-    const-class v1, Lcom/nezukosamp/launcher/UpdateActivity;
+    const-class v1, Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 60
     .line 61
@@ -199,7 +199,7 @@
 
     .line 83
     .line 84
-    check-cast v0, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast v0, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 85
     .line 86
@@ -212,7 +212,7 @@
 
     .line 90
     .line 91
-    check-cast p1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast p1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 92
     .line 93
@@ -229,7 +229,7 @@
 
     .line 98
     .line 99
-    check-cast p1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast p1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 100
     .line 101
@@ -291,7 +291,7 @@
 
     .line 131
     .line 132
-    check-cast v0, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast v0, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 133
     .line 134
@@ -304,7 +304,7 @@
 
     .line 138
     .line 139
-    check-cast p1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast p1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 140
     .line 141
@@ -321,7 +321,7 @@
 
     .line 146
     .line 147
-    check-cast p1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast p1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 148
     .line 149

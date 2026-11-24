@@ -71,11 +71,11 @@
     .line 11
     .line 12
     .line 13
-    check-cast v3, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;
+    check-cast v3, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;
 
     .line 14
     .line 15
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->p0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->p0:I
 
     .line 16
     .line 17
@@ -130,7 +130,7 @@
 
     .line 43
     .line 44
-    iget-object p1, v3, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
+    iget-object p1, v3, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 45
     .line 46
@@ -151,7 +151,7 @@
     move-result-object p1
 
     .line 54
-    iget-object p3, v3, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
+    iget-object p3, v3, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 55
     .line 56
@@ -248,7 +248,7 @@
     .line 100
     :cond_3
     :goto_1
-    iget-object p1, v3, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
+    iget-object p1, v3, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
 
     .line 101
     .line 102
@@ -269,11 +269,11 @@
 
     .line 109
     :pswitch_0
-    check-cast v3, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;
+    check-cast v3, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;
 
     .line 110
     .line 111
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
 
     .line 112
     .line 113
@@ -328,7 +328,7 @@
 
     .line 139
     .line 140
-    iget-object p1, v3, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
+    iget-object p1, v3, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 141
     .line 142
@@ -349,7 +349,7 @@
     move-result-object p1
 
     .line 150
-    iget-object p3, v3, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
+    iget-object p3, v3, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 151
     .line 152
@@ -446,7 +446,7 @@
     .line 196
     :cond_8
     :goto_3
-    iget-object p1, v3, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->m0:Lv6/g;
+    iget-object p1, v3, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->m0:Lv6/g;
 
     .line 197
     .line 198

@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field public final synthetic s:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+.field public final synthetic s:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;)V
+.method public synthetic constructor <init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lw6/f;->s:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    iput-object p1, p0, Lw6/f;->s:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     return-void
 .end method
@@ -28,11 +28,11 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lw6/f;->s:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    iget-object p1, p0, Lw6/f;->s:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 2
     .line 3
-    iget-object p2, p1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p2, p1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 4
     .line 5

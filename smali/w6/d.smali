@@ -74,11 +74,11 @@
 
     .line 18
     :pswitch_0
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 19
     .line 20
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 21
     .line 22
@@ -132,11 +132,11 @@
 
     .line 49
     :pswitch_1
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 50
     .line 51
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 52
     .line 53
@@ -190,11 +190,11 @@
 
     .line 80
     :pswitch_2
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 81
     .line 82
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 83
     .line 84
@@ -248,11 +248,11 @@
 
     .line 111
     :pswitch_3
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 112
     .line 113
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 114
     .line 115
@@ -306,11 +306,11 @@
 
     .line 142
     :pswitch_4
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 143
     .line 144
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 145
     .line 146
@@ -364,11 +364,11 @@
 
     .line 173
     :pswitch_5
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 174
     .line 175
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 176
     .line 177
@@ -422,11 +422,11 @@
 
     .line 204
     :pswitch_6
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 205
     .line 206
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 207
     .line 208
@@ -480,11 +480,11 @@
 
     .line 235
     :pswitch_7
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 236
     .line 237
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 238
     .line 239
@@ -538,7 +538,7 @@
 
     .line 266
     :pswitch_8
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 267
     .line 268
@@ -546,7 +546,7 @@
 
     .line 269
     .line 270
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 271
     .line 272
@@ -645,7 +645,7 @@
     .line 325
     .line 326
     :cond_1
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 327
     .line 328
@@ -699,11 +699,11 @@
 
     .line 355
     :pswitch_9
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 356
     .line 357
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 358
     .line 359
@@ -757,11 +757,11 @@
 
     .line 386
     :pswitch_a
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 387
     .line 388
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 389
     .line 390
@@ -815,11 +815,11 @@
 
     .line 417
     :pswitch_b
-    check-cast v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 418
     .line 419
-    iget-object p1, v1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 420
     .line 421

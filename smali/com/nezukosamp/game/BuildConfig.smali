@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static final APPLICATION_ID:Ljava/lang/String; = "com.nezukosamp.game"
+.field public static final APPLICATION_ID:Ljava/lang/String; = "com.alyasamp.game"
 
 .field public static final BUILD_TYPE:Ljava/lang/String; = "release"
 

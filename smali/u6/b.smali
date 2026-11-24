@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic s:I
 
-.field public final synthetic t:Lcom/nezukosamp/launcher/SplashActivity;
+.field public final synthetic t:Lcom/alyasamp/launcher/SplashActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/nezukosamp/launcher/SplashActivity;I)V
+.method public synthetic constructor <init>(Lcom/alyasamp/launcher/SplashActivity;I)V
     .locals 0
 
     .line 1
@@ -26,7 +26,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lu6/b;->t:Lcom/nezukosamp/launcher/SplashActivity;
+    iput-object p1, p0, Lu6/b;->t:Lcom/alyasamp/launcher/SplashActivity;
 
     .line 7
     .line 8
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lu6/b;->t:Lcom/nezukosamp/launcher/SplashActivity;
+    iget-object v1, p0, Lu6/b;->t:Lcom/alyasamp/launcher/SplashActivity;
 
     .line 4
     .line 5
@@ -52,7 +52,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object v0, v1, Lcom/nezukosamp/launcher/SplashActivity;->v:Landroid/opengl/GLSurfaceView;
+    iget-object v0, v1, Lcom/alyasamp/launcher/SplashActivity;->v:Landroid/opengl/GLSurfaceView;
 
     .line 9
     .line 10
@@ -69,7 +69,7 @@
 
     .line 16
     :pswitch_0
-    sget-object v0, Lcom/nezukosamp/launcher/SplashActivity;->y:[Ljava/lang/String;
+    sget-object v0, Lcom/alyasamp/launcher/SplashActivity;->y:[Ljava/lang/String;
 
     .line 17
     .line 18
@@ -82,7 +82,7 @@
 
     .line 22
     .line 23
-    const-class v2, Lcom/nezukosamp/launcher/UpdateService;
+    const-class v2, Lcom/alyasamp/launcher/UpdateService;
 
     .line 24
     .line 25
@@ -91,7 +91,7 @@
     .line 26
     .line 27
     .line 28
-    iget-object v2, v1, Lcom/nezukosamp/launcher/SplashActivity;->w:Lb4/d;
+    iget-object v2, v1, Lcom/alyasamp/launcher/SplashActivity;->w:Lb4/d;
 
     .line 29
     .line 30

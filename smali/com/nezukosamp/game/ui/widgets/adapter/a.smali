@@ -72,7 +72,7 @@
     .line 10
     .line 11
     .line 12
-    check-cast v3, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;
+    check-cast v3, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;
 
     .line 13
     .line 14
@@ -84,7 +84,7 @@
 
     .line 17
     .line 18
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
 
     .line 19
     .line 20
@@ -506,7 +506,7 @@
     .line 241
     .line 242
     .line 243
-    invoke-virtual {v3}, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->I()V
+    invoke-virtual {v3}, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->I()V
 
     .line 244
     .line 245

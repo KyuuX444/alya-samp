@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic s:I
 
-.field public final synthetic t:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+.field public final synthetic t:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;I)V
+.method public synthetic constructor <init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;I)V
     .locals 0
 
     .line 1
@@ -26,7 +26,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lw6/c;->t:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    iput-object p1, p0, Lw6/c;->t:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 7
     .line 8
@@ -49,7 +49,7 @@
     const/4 v1, 0x0
 
     .line 5
-    iget-object v2, p0, Lw6/c;->t:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    iget-object v2, p0, Lw6/c;->t:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 6
     .line 7
@@ -58,7 +58,7 @@
     .line 8
     .line 9
     .line 10
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->D0:Lcom/google/android/material/button/MaterialButton;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->D0:Lcom/google/android/material/button/MaterialButton;
 
     .line 11
     .line 12
@@ -67,7 +67,7 @@
     .line 13
     .line 14
     .line 15
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
 
     .line 16
     .line 17
@@ -110,7 +110,7 @@
     add-int/2addr p1, v0
 
     .line 35
-    iget-object v0, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
+    iget-object v0, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
 
     .line 36
     .line 37
@@ -147,7 +147,7 @@
     .line 54
     .line 55
     .line 56
-    iget-object v0, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object v0, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 57
     .line 58
@@ -202,7 +202,7 @@
 
     .line 85
     :pswitch_0
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->B0:Lcom/google/android/material/button/MaterialButton;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->B0:Lcom/google/android/material/button/MaterialButton;
 
     .line 86
     .line 87
@@ -211,7 +211,7 @@
     .line 88
     .line 89
     .line 90
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
 
     .line 91
     .line 92
@@ -254,7 +254,7 @@
 
     .line 109
     .line 110
-    iget-object v0, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
+    iget-object v0, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->C0:Lcom/google/android/material/button/MaterialButton;
 
     .line 111
     .line 112
@@ -291,7 +291,7 @@
     .line 129
     .line 130
     .line 131
-    iget-object v0, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object v0, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 132
     .line 133
@@ -346,7 +346,7 @@
 
     .line 160
     :pswitch_1
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 161
     .line 162
@@ -415,7 +415,7 @@
 
     .line 198
     .line 199
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->A0:Lcom/google/android/material/button/MaterialButton;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->A0:Lcom/google/android/material/button/MaterialButton;
 
     .line 200
     .line 201
@@ -507,7 +507,7 @@
     const/4 v3, 0x3
 
     .line 250
-    invoke-direct {v1, v2, v3}, Lw6/g;-><init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;I)V
+    invoke-direct {v1, v2, v3}, Lw6/g;-><init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;I)V
 
     .line 251
     .line 252
@@ -539,7 +539,7 @@
     const/4 v3, 0x4
 
     .line 268
-    invoke-direct {v1, v2, v3}, Lw6/g;-><init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;I)V
+    invoke-direct {v1, v2, v3}, Lw6/g;-><init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;I)V
 
     .line 269
     .line 270
@@ -559,7 +559,7 @@
 
     .line 278
     :pswitch_2
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 279
     .line 280
@@ -628,7 +628,7 @@
 
     .line 316
     .line 317
-    iget-object p1, v2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->z0:Lcom/google/android/material/button/MaterialButton;
+    iget-object p1, v2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->z0:Lcom/google/android/material/button/MaterialButton;
 
     .line 318
     .line 319
@@ -717,7 +717,7 @@
 
     .line 366
     .line 367
-    invoke-direct {v4, v2, v1}, Lw6/g;-><init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;I)V
+    invoke-direct {v4, v2, v1}, Lw6/g;-><init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;I)V
 
     .line 368
     .line 369
@@ -746,7 +746,7 @@
 
     .line 383
     .line 384
-    invoke-direct {v3, v2, v0}, Lw6/g;-><init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;I)V
+    invoke-direct {v3, v2, v0}, Lw6/g;-><init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;I)V
 
     .line 385
     .line 386
@@ -766,7 +766,7 @@
 
     .line 394
     :pswitch_3
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 395
     .line 396
@@ -849,7 +849,7 @@
     const/4 v4, 0x2
 
     .line 441
-    invoke-direct {v3, v2, v4}, Lw6/g;-><init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;I)V
+    invoke-direct {v3, v2, v4}, Lw6/g;-><init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;I)V
 
     .line 442
     .line 443

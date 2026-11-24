@@ -1,4 +1,4 @@
-.class public Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;
+.class public Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;
 .super Landroidx/fragment/app/r;
 .source "SourceFile"
 
@@ -54,7 +54,7 @@
     .line 11
     .line 12
     .line 13
-    iput-object p2, p0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
+    iput-object p2, p0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 14
     .line 15
@@ -148,7 +148,7 @@
     move-result-object v3
 
     .line 63
-    iget-object v4, p0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
+    iget-object v4, p0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 64
     .line 65
@@ -157,7 +157,7 @@
     .line 66
     .line 67
     .line 68
-    iput-object v0, p0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
+    iput-object v0, p0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
 
     .line 69
     .line 70
@@ -212,7 +212,7 @@
 
     .line 96
     .line 97
-    iput-object p2, p0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iput-object p2, p0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     .line 98
     .line 99
@@ -233,7 +233,7 @@
     .line 106
     .line 107
     .line 108
-    iget-object p2, p0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iget-object p2, p0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     .line 109
     .line 110
@@ -242,7 +242,7 @@
     .line 111
     .line 112
     .line 113
-    iget-object p2, p0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
+    iget-object p2, p0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
 
     .line 114
     .line 115
@@ -251,7 +251,7 @@
     .line 116
     .line 117
     .line 118
-    iget-object p2, p0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iget-object p2, p0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     .line 119
     .line 120

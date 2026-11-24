@@ -45,7 +45,7 @@
 
     packed-switch p1, :pswitch_data_0
 
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
 
     if-eq p2, v2, :cond_1
 

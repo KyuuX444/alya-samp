@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" android:installLocation="auto" package="com.nezukosamp.game" platformBuildVersionCode="33" platformBuildVersionName="13">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" android:installLocation="auto" package="com.alyasamp.game" platformBuildVersionCode="33" platformBuildVersionName="13">
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -26,17 +26,17 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
-    <permission android:name="com.nezukosamp.launcher.MY_PERMISSION" android:protectionLevel="normal"/>
-    <permission android:name="com.nezukosamp.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.nezukosamp.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.alyasamp.launcher.MY_PERMISSION" android:protectionLevel="normal"/>
+    <permission android:name="com.alyasamp.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.alyasamp.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <application android:allowAudioPlaybackCapture="true" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/data_extraction_rules" android:extractNativeLibs="true" android:fullBackupContent="@xml/backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="androidx.multidex.MultiDexApplication" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/Theme.Launcher">
-        <provider android:authorities="com.nezukosamp.game.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+        <provider android:authorities="com.alyasamp.game.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
         </provider>
-        <service android:enabled="true" android:exported="true" android:name="com.nezukosamp.launcher.UpdateService" android:permission="com.nezukosamp.launcher.MY_PERMISSION" android:stopWithTask="false"/>
-        <activity android:name="com.nezukosamp.launcher.MainActivity" android:screenOrientation="portrait"/>
-        <activity android:name="com.nezukosamp.launcher.UpdateActivity" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.nezukosamp.launcher.SplashActivity" android:screenOrientation="portrait">
+        <service android:enabled="true" android:exported="true" android:name="com.alyasamp.launcher.UpdateService" android:permission="com.alyasamp.launcher.MY_PERMISSION" android:stopWithTask="false"/>
+        <activity android:name="com.alyasamp.launcher.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.alyasamp.launcher.UpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.alyasamp.launcher.SplashActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -53,10 +53,10 @@
         <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <provider android:authorities="com.nezukosamp.game.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.alyasamp.game.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
         <uses-library android:name="androidx.window.extensions" android:required="false"/>
         <uses-library android:name="androidx.window.sidecar" android:required="false"/>
-        <provider android:authorities="com.nezukosamp.game.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+        <provider android:authorities="com.alyasamp.game.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>

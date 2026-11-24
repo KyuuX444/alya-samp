@@ -80,11 +80,11 @@
 
     .line 19
     :pswitch_0
-    check-cast v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 20
     .line 21
-    sget p3, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p3, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 22
     .line 23
@@ -113,7 +113,7 @@
     .line 33
     :cond_1
     :goto_0
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->I0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->I0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 34
     .line 35
@@ -138,7 +138,7 @@
     .line 44
     .line 45
     .line 46
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 47
     .line 48
@@ -280,11 +280,11 @@
 
     .line 120
     :pswitch_1
-    check-cast v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 121
     .line 122
-    sget p3, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p3, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 123
     .line 124
@@ -313,7 +313,7 @@
     .line 134
     :cond_4
     :goto_3
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->H0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->H0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 135
     .line 136
@@ -338,7 +338,7 @@
     .line 145
     .line 146
     .line 147
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 148
     .line 149
@@ -480,11 +480,11 @@
 
     .line 221
     :pswitch_2
-    check-cast v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 222
     .line 223
-    sget p3, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p3, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 224
     .line 225
@@ -513,7 +513,7 @@
     .line 235
     :cond_7
     :goto_6
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->G0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->G0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 236
     .line 237
@@ -625,7 +625,7 @@
     move-result p1
 
     .line 293
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 294
     .line 295
@@ -703,11 +703,11 @@
 
     .line 335
     :pswitch_3
-    check-cast v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 336
     .line 337
-    sget p3, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p3, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 338
     .line 339
@@ -736,7 +736,7 @@
     .line 349
     :cond_a
     :goto_9
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->F0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->F0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 350
     .line 351
@@ -848,7 +848,7 @@
     move-result p1
 
     .line 407
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 408
     .line 409
@@ -926,11 +926,11 @@
 
     .line 449
     :pswitch_4
-    check-cast v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    check-cast v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 450
     .line 451
-    sget p3, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p3, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 452
     .line 453
@@ -959,7 +959,7 @@
     .line 463
     :cond_d
     :goto_c
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->E0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->E0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 464
     .line 465
@@ -984,7 +984,7 @@
     .line 474
     .line 475
     .line 476
-    iget-object p2, v5, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p2, v5, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 477
     .line 478

@@ -78,11 +78,11 @@
 
     .line 20
     .line 21
-    const-class p2, Lcom/nezukosamp/launcher/SplashActivity;
+    const-class p2, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 22
     .line 23
-    iget-object v0, v1, Lu6/f;->a:Lcom/nezukosamp/launcher/UpdateActivity;
+    iget-object v0, v1, Lu6/f;->a:Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 24
     .line 25

@@ -178,11 +178,11 @@
     .line 71
     .line 72
     .line 73
-    check-cast v0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;
+    check-cast v0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;
 
     .line 74
     .line 75
-    iget-object v2, v0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iget-object v2, v0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     .line 76
     .line 77
@@ -191,7 +191,7 @@
     .line 78
     .line 79
     .line 80
-    iget-object p1, v0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
+    iget-object p1, v0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->m0:Lv6/g;
 
     .line 81
     .line 82
@@ -200,7 +200,7 @@
     .line 83
     .line 84
     .line 85
-    iget-object p1, v0, Lcom/nezukosamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iget-object p1, v0, Lcom/alyasamp/launcher/ui/fragment/HostedServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     .line 86
     .line 87
@@ -216,11 +216,11 @@
 
     .line 92
     :pswitch_1
-    check-cast v0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;
+    check-cast v0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;
 
     .line 93
     .line 94
-    invoke-virtual {v0}, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->I()V
+    invoke-virtual {v0}, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->I()V
 
     .line 95
     .line 96

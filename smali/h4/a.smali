@@ -117,14 +117,14 @@
 
     .line 42
     .line 43
-    check-cast v2, Lcom/nezukosamp/launcher/UpdateService;
+    check-cast v2, Lcom/alyasamp/launcher/UpdateService;
 
     .line 44
     .line 45
     const/4 v3, 0x0
 
     .line 46
-    iput-boolean v3, v2, Lcom/nezukosamp/launcher/UpdateService;->x:Z
+    iput-boolean v3, v2, Lcom/alyasamp/launcher/UpdateService;->x:Z
 
     .line 47
     .line 48

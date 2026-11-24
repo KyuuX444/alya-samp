@@ -1,4 +1,4 @@
-.class public Lcom/nezukosamp/launcher/ui/fragment/ServersPageFragment;
+.class public Lcom/alyasamp/launcher/ui/fragment/ServersPageFragment;
 .super Landroidx/fragment/app/r;
 .source "SourceFile"
 

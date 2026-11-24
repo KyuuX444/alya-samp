@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic s:I
 
-.field public final synthetic t:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+.field public final synthetic t:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;I)V
+.method public synthetic constructor <init>(Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;I)V
     .locals 0
 
     .line 1
@@ -26,7 +26,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lw6/i;->t:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    iput-object p1, p0, Lw6/i;->t:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 7
     .line 8
@@ -57,7 +57,7 @@
 
     .line 2
     .line 3
-    iget-object p2, p0, Lw6/i;->t:Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;
+    iget-object p2, p0, Lw6/i;->t:Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;
 
     .line 4
     .line 5
@@ -66,7 +66,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object p1, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 9
     .line 10
@@ -93,7 +93,7 @@
     move-result-object p3
 
     .line 23
-    iget-object p4, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->I0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p4, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->I0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 24
     .line 25
@@ -164,7 +164,7 @@
 
     .line 61
     :cond_0
-    iget-object p4, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->I0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p4, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->I0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 62
     .line 63
@@ -220,7 +220,7 @@
 
     .line 89
     :pswitch_0
-    iget-object p1, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 90
     .line 91
@@ -247,7 +247,7 @@
     move-result-object p3
 
     .line 104
-    iget-object p4, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->H0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p4, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->H0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 105
     .line 106
@@ -318,7 +318,7 @@
 
     .line 142
     :cond_1
-    iget-object p4, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->H0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p4, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->H0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 143
     .line 144
@@ -374,7 +374,7 @@
 
     .line 170
     :pswitch_1
-    iget-object p1, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->G0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p1, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->G0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 171
     .line 172
@@ -445,7 +445,7 @@
 
     .line 208
     :cond_2
-    iget-object p1, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->G0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p1, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->G0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 209
     .line 210
@@ -474,7 +474,7 @@
     move-result p1
 
     .line 222
-    iget-object p3, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p3, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 223
     .line 224
@@ -551,7 +551,7 @@
 
     .line 264
     :pswitch_2
-    iget-object p1, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->F0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p1, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->F0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 265
     .line 266
@@ -622,7 +622,7 @@
 
     .line 302
     :cond_3
-    iget-object p1, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->F0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p1, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->F0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 303
     .line 304
@@ -651,7 +651,7 @@
     move-result p1
 
     .line 316
-    iget-object p3, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p3, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 317
     .line 318
@@ -728,7 +728,7 @@
 
     .line 358
     :pswitch_3
-    iget-object p1, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
+    iget-object p1, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->J0:Landroid/content/SharedPreferences;
 
     .line 359
     .line 360
@@ -755,7 +755,7 @@
     move-result-object p3
 
     .line 373
-    iget-object p4, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->E0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p4, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->E0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 374
     .line 375
@@ -815,7 +815,7 @@
 
     .line 404
     :cond_4
-    iget-object p4, p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->E0:Lcom/google/android/material/textfield/TextInputEditText;
+    iget-object p4, p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->E0:Lcom/google/android/material/textfield/TextInputEditText;
 
     .line 405
     .line 406

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/nezukosamp/launcher/UpdateService;
+.field public final synthetic a:Lcom/alyasamp/launcher/UpdateService;
 
 .field public final synthetic b:Lj7/r;
 
@@ -18,13 +18,13 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/nezukosamp/launcher/UpdateService;Lj7/r;Lj7/r;Lx6/a;Ljava/util/ArrayList;Lj7/q;)V
+.method public synthetic constructor <init>(Lcom/alyasamp/launcher/UpdateService;Lj7/r;Lj7/r;Lx6/a;Ljava/util/ArrayList;Lj7/q;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lu6/i;->a:Lcom/nezukosamp/launcher/UpdateService;
+    iput-object p1, p0, Lu6/i;->a:Lcom/alyasamp/launcher/UpdateService;
 
     iput-object p2, p0, Lu6/i;->b:Lj7/r;
 

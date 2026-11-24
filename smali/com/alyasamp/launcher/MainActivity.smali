@@ -1,4 +1,4 @@
-.class public Lcom/nezukosamp/launcher/MainActivity;
+.class public Lcom/alyasamp/launcher/MainActivity;
 .super Ld/p;
 .source "SourceFile"
 
@@ -19,7 +19,7 @@
 
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lcom/nezukosamp/launcher/MainActivity;->s:J
+    iput-wide v0, p0, Lcom/alyasamp/launcher/MainActivity;->s:J
 
     return-void
 .end method
@@ -43,7 +43,7 @@
     move-result-wide v0
 
     .line 8
-    iget-wide v2, p0, Lcom/nezukosamp/launcher/MainActivity;->s:J
+    iget-wide v2, p0, Lcom/alyasamp/launcher/MainActivity;->s:J
 
     .line 9
     .line 10
@@ -101,7 +101,7 @@
     move-result-wide v0
 
     .line 38
-    iput-wide v0, p0, Lcom/nezukosamp/launcher/MainActivity;->s:J
+    iput-wide v0, p0, Lcom/alyasamp/launcher/MainActivity;->s:J
 
     .line 39
     .line 40
@@ -175,7 +175,7 @@
 
     .line 28
     .line 29
-    const-class v1, Lcom/nezukosamp/launcher/SplashActivity;
+    const-class v1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 30
     .line 31

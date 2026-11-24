@@ -3498,14 +3498,14 @@
     .line 266
     iget-object v3, v0, Lq0/d;->w:Ljava/lang/Object;
 
-    check-cast v3, Lcom/nezukosamp/launcher/UpdateService;
+    check-cast v3, Lcom/alyasamp/launcher/UpdateService;
 
     const/4 v4, 0x0
 
     .line 267
-    iput-boolean v4, v3, Lcom/nezukosamp/launcher/UpdateService;->x:Z
+    iput-boolean v4, v3, Lcom/alyasamp/launcher/UpdateService;->x:Z
 
-    iget-object v3, v3, Lcom/nezukosamp/launcher/UpdateService;->y:Ljava/util/ArrayList;
+    iget-object v3, v3, Lcom/alyasamp/launcher/UpdateService;->y:Ljava/util/ArrayList;
 
     iget-object v4, v0, Lq0/d;->u:Ljava/lang/Object;
 
@@ -3527,17 +3527,17 @@
 
     iget-object v3, v0, Lq0/d;->w:Ljava/lang/Object;
 
-    check-cast v3, Lcom/nezukosamp/launcher/UpdateService;
+    check-cast v3, Lcom/alyasamp/launcher/UpdateService;
 
-    iget v4, v3, Lcom/nezukosamp/launcher/UpdateService;->A:I
+    iget v4, v3, Lcom/alyasamp/launcher/UpdateService;->A:I
 
     const/4 v5, 0x1
 
     add-int/2addr v4, v5
 
-    iput v4, v3, Lcom/nezukosamp/launcher/UpdateService;->A:I
+    iput v4, v3, Lcom/alyasamp/launcher/UpdateService;->A:I
 
-    iget-wide v4, v3, Lcom/nezukosamp/launcher/UpdateService;->z:J
+    iget-wide v4, v3, Lcom/alyasamp/launcher/UpdateService;->z:J
 
     iget-object v0, v0, Lq0/d;->t:Ljava/lang/Object;
 
@@ -3549,7 +3549,7 @@
     sub-long/2addr v4, v6
 
     .line 269
-    iput-wide v4, v3, Lcom/nezukosamp/launcher/UpdateService;->z:J
+    iput-wide v4, v3, Lcom/alyasamp/launcher/UpdateService;->z:J
 
     const-wide v3, -0x2e30b156dcf7L
 

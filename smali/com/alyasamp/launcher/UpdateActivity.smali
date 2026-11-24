@@ -1,4 +1,4 @@
-.class public Lcom/nezukosamp/launcher/UpdateActivity;
+.class public Lcom/alyasamp/launcher/UpdateActivity;
 .super Ld/p;
 .source "SourceFile"
 
@@ -31,15 +31,15 @@
 
     new-instance v1, Lu6/f;
 
-    invoke-direct {v1, p0}, Lu6/f;-><init>(Lcom/nezukosamp/launcher/UpdateActivity;)V
+    invoke-direct {v1, p0}, Lu6/f;-><init>(Lcom/alyasamp/launcher/UpdateActivity;)V
 
     invoke-direct {v0, v1}, Landroid/os/Messenger;-><init>(Landroid/os/Handler;)V
 
-    iput-object v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
+    iput-object v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
 
     sget-object v0, Lu6/g;->s:Lu6/g;
 
-    iput-object v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->u:Lu6/g;
+    iput-object v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->u:Lu6/g;
 
     new-instance v0, Lb4/d;
 
@@ -47,11 +47,11 @@
 
     invoke-direct {v0, v1, p0}, Lb4/d;-><init>(ILjava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->w:Lb4/d;
+    iput-object v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->w:Lb4/d;
 
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->x:J
+    iput-wide v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->x:J
 
     return-void
 .end method
@@ -153,7 +153,7 @@
     move-result-wide v0
 
     .line 8
-    iget-wide v2, p0, Lcom/nezukosamp/launcher/UpdateActivity;->x:J
+    iget-wide v2, p0, Lcom/alyasamp/launcher/UpdateActivity;->x:J
 
     .line 9
     .line 10
@@ -211,7 +211,7 @@
     move-result-wide v0
 
     .line 38
-    iput-wide v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->x:J
+    iput-wide v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->x:J
 
     .line 39
     .line 40
@@ -257,7 +257,7 @@
 
     move-object v2, p0
 
-    invoke-virtual/range {v2 .. v7}, Lcom/nezukosamp/launcher/UpdateActivity;->g(ZJJ)V
+    invoke-virtual/range {v2 .. v7}, Lcom/alyasamp/launcher/UpdateActivity;->g(ZJJ)V
 
     sget v0, Lcom/nezukosamp/game/R$id;->update_state:I
 
@@ -305,19 +305,19 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->u:Lu6/g;
+    iput-object v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->u:Lu6/g;
 
-    iget-object v1, p0, Lcom/nezukosamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
+    iget-object v1, p0, Lcom/alyasamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
 
     if-nez v1, :cond_0
 
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lcom/nezukosamp/launcher/UpdateService;
+    const-class v1, Lcom/alyasamp/launcher/UpdateService;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    iget-object v1, p0, Lcom/nezukosamp/launcher/UpdateActivity;->w:Lb4/d;
+    iget-object v1, p0, Lcom/alyasamp/launcher/UpdateActivity;->w:Lb4/d;
 
     invoke-virtual {p0, v0, v1, p1}, Landroid/content/Context;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
 
@@ -336,12 +336,12 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
+    iget-object v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
 
     iput-object v0, p1, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
     :try_start_0
-    iget-object v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
+    iget-object v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
 
     invoke-virtual {v0, p1}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
     :try_end_0
@@ -364,7 +364,7 @@
 
     invoke-super {p0}, Ld/p;->onDestroy()V
 
-    iget-object v0, p0, Lcom/nezukosamp/launcher/UpdateActivity;->w:Lb4/d;
+    iget-object v0, p0, Lcom/alyasamp/launcher/UpdateActivity;->w:Lb4/d;
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->unbindService(Landroid/content/ServiceConnection;)V
 

@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic s:Lcom/nezukosamp/launcher/UpdateService;
+.field public final synthetic s:Lcom/alyasamp/launcher/UpdateService;
 
 .field public final synthetic t:Ljava/lang/String;
 
@@ -19,13 +19,13 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/nezukosamp/launcher/UpdateService;Ljava/lang/String;)V
+.method public synthetic constructor <init>(Lcom/alyasamp/launcher/UpdateService;Ljava/lang/String;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lu6/j;->s:Lcom/nezukosamp/launcher/UpdateService;
+    iput-object p1, p0, Lu6/j;->s:Lcom/alyasamp/launcher/UpdateService;
 
     iput-object p2, p0, Lu6/j;->t:Ljava/lang/String;
 
@@ -48,11 +48,11 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lu6/j;->s:Lcom/nezukosamp/launcher/UpdateService;
+    iget-object v0, p0, Lu6/j;->s:Lcom/alyasamp/launcher/UpdateService;
 
     .line 2
     .line 3
-    iget-object v1, v0, Lcom/nezukosamp/launcher/UpdateService;->t:Ld/j;
+    iget-object v1, v0, Lcom/alyasamp/launcher/UpdateService;->t:Ld/j;
 
     .line 4
     .line 5
@@ -266,7 +266,7 @@
     .line 119
     .line 120
     .line 121
-    iget-object v2, v0, Lcom/nezukosamp/launcher/UpdateService;->s:Landroid/os/Messenger;
+    iget-object v2, v0, Lcom/alyasamp/launcher/UpdateService;->s:Landroid/os/Messenger;
 
     .line 122
     .line 123
@@ -274,7 +274,7 @@
 
     .line 124
     .line 125
-    iget-object v0, v0, Lcom/nezukosamp/launcher/UpdateService;->u:Landroid/os/Messenger;
+    iget-object v0, v0, Lcom/alyasamp/launcher/UpdateService;->u:Landroid/os/Messenger;
 
     .line 126
     .line 127

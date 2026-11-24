@@ -1,4 +1,4 @@
-.class public Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;
+.class public Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;
 .super Landroidx/fragment/app/r;
 .source "SourceFile"
 
@@ -48,7 +48,7 @@
 
     new-instance v2, Lw6/b;
 
-    invoke-direct {v2, p0, v1}, Lw6/b;-><init>(Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;I)V
+    invoke-direct {v2, p0, v1}, Lw6/b;-><init>(Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;I)V
 
     invoke-virtual {p2, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -56,7 +56,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p2, p0, v1}, Lw6/b;-><init>(Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;I)V
+    invoke-direct {p2, p0, v1}, Lw6/b;-><init>(Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;I)V
 
     invoke-virtual {v0, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

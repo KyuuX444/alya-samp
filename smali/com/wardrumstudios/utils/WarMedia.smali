@@ -177,7 +177,7 @@
 
     move-result-object v4
 
-    const-string v5, "/Android/data/com.nezukosamp.game/files/"
+    const-string v5, "/Android/data/com.alyasamp.game/files/"
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1461,7 +1461,7 @@
 
     move-result-object v0
 
-    const-string v1, "/Android/data/com.nezukosamp.game/files/"
+    const-string v1, "/Android/data/com.alyasamp.game/files/"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 

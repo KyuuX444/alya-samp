@@ -1,4 +1,4 @@
-.class public Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;
+.class public Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;
 .super Landroidx/fragment/app/r;
 .source "SourceFile"
 
@@ -30,17 +30,17 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iget-object v0, p0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setRefreshing(Z)V
 
-    iget-object v0, p0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->m0:Lv6/g;
+    iget-object v0, p0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->m0:Lv6/g;
 
     invoke-virtual {v0}, Lv6/g;->b()V
 
-    iget-object v0, p0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iget-object v0, p0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     const/4 v1, 0x0
 
@@ -77,7 +77,7 @@
     .line 11
     .line 12
     .line 13
-    iput-object v0, p0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 14
     .line 15
@@ -171,7 +171,7 @@
     move-result-object v3
 
     .line 63
-    iget-object v4, p0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
+    iget-object v4, p0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->n0:Ljava/util/ArrayList;
 
     .line 64
     .line 65
@@ -180,7 +180,7 @@
     .line 66
     .line 67
     .line 68
-    iput-object v2, p0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->m0:Lv6/g;
+    iput-object v2, p0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->m0:Lv6/g;
 
     .line 69
     .line 70
@@ -235,7 +235,7 @@
 
     .line 96
     .line 97
-    iput-object v0, p0, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iput-object v0, p0, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->o0:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     .line 98
     .line 99
@@ -289,7 +289,7 @@
     .line 123
     .line 124
     .line 125
-    invoke-virtual {p0}, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->I()V
+    invoke-virtual {p0}, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->I()V
 
     .line 126
     .line 127

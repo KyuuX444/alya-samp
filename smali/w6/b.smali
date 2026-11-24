@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic s:I
 
-.field public final synthetic t:Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;
+.field public final synthetic t:Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;I)V
+.method public synthetic constructor <init>(Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;I)V
     .locals 0
 
     .line 1
@@ -26,7 +26,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lw6/b;->t:Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;
+    iput-object p1, p0, Lw6/b;->t:Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;
 
     .line 7
     .line 8
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object v0, p0, Lw6/b;->t:Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;
+    iget-object v0, p0, Lw6/b;->t:Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;
 
     .line 4
     .line 5
@@ -52,7 +52,7 @@
     .line 6
     .line 7
     .line 8
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;->m0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;->m0:I
 
     .line 9
     .line 10
@@ -111,7 +111,7 @@
 
     .line 40
     :pswitch_0
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/InformationPageFragment;->m0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/InformationPageFragment;->m0:I
 
     .line 41
     .line 42

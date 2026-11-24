@@ -42,7 +42,7 @@
     .line 4
     .line 5
     .line 6
-    sget p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 7
     .line 8
@@ -55,7 +55,7 @@
 
     .line 12
     :pswitch_0
-    sget p2, Lcom/nezukosamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
+    sget p2, Lcom/alyasamp/launcher/ui/fragment/SettingsPageFragment;->K0:I
 
     .line 13
     .line 14

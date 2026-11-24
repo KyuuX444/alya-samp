@@ -61,7 +61,7 @@
     move-object p1, v2
 
     .line 11
-    check-cast p1, Lcom/nezukosamp/launcher/UpdateActivity;
+    check-cast p1, Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 12
     .line 13
@@ -74,11 +74,11 @@
     .line 16
     .line 17
     .line 18
-    iput-object v3, p1, Lcom/nezukosamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
+    iput-object v3, p1, Lcom/alyasamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
 
     .line 19
     .line 20
-    iget-object p2, p1, Lcom/nezukosamp/launcher/UpdateActivity;->u:Lu6/g;
+    iget-object p2, p1, Lcom/alyasamp/launcher/UpdateActivity;->u:Lu6/g;
 
     .line 21
     .line 22
@@ -98,7 +98,7 @@
     move-result-object p2
 
     .line 30
-    iget-object p1, p1, Lcom/nezukosamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
+    iget-object p1, p1, Lcom/alyasamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
 
     .line 31
     .line 32
@@ -107,11 +107,11 @@
     .line 33
     .line 34
     :try_start_0
-    check-cast v2, Lcom/nezukosamp/launcher/UpdateActivity;
+    check-cast v2, Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 35
     .line 36
-    iget-object p1, v2, Lcom/nezukosamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
+    iget-object p1, v2, Lcom/alyasamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
 
     .line 37
     .line 38
@@ -140,7 +140,7 @@
 
     .line 47
     :pswitch_0
-    check-cast v2, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast v2, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 48
     .line 49
@@ -153,7 +153,7 @@
     .line 52
     .line 53
     .line 54
-    iput-object p1, v2, Lcom/nezukosamp/launcher/SplashActivity;->u:Landroid/os/Messenger;
+    iput-object p1, v2, Lcom/alyasamp/launcher/SplashActivity;->u:Landroid/os/Messenger;
 
     .line 55
     .line 56
@@ -215,7 +215,7 @@
     move-result-object p1
 
     .line 85
-    iget-object p2, v2, Lcom/nezukosamp/launcher/SplashActivity;->t:Landroid/os/Messenger;
+    iget-object p2, v2, Lcom/alyasamp/launcher/SplashActivity;->t:Landroid/os/Messenger;
 
     .line 86
     .line 87
@@ -224,7 +224,7 @@
     .line 88
     .line 89
     :try_start_1
-    iget-object p2, v2, Lcom/nezukosamp/launcher/SplashActivity;->u:Landroid/os/Messenger;
+    iget-object p2, v2, Lcom/alyasamp/launcher/SplashActivity;->u:Landroid/os/Messenger;
 
     .line 90
     .line 91
@@ -378,11 +378,11 @@
     .line 7
     .line 8
     .line 9
-    check-cast v1, Lcom/nezukosamp/launcher/UpdateActivity;
+    check-cast v1, Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 10
     .line 11
-    iput-object v0, v1, Lcom/nezukosamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
+    iput-object v0, v1, Lcom/alyasamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
 
     .line 12
     .line 13
@@ -390,11 +390,11 @@
 
     .line 14
     :pswitch_0
-    check-cast v1, Lcom/nezukosamp/launcher/SplashActivity;
+    check-cast v1, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 15
     .line 16
-    iput-object v0, v1, Lcom/nezukosamp/launcher/SplashActivity;->u:Landroid/os/Messenger;
+    iput-object v0, v1, Lcom/alyasamp/launcher/SplashActivity;->u:Landroid/os/Messenger;
 
     .line 17
     .line 18

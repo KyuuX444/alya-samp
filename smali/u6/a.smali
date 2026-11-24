@@ -52,7 +52,7 @@
     .line 6
     .line 7
     .line 8
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/ServersPageFragment;->m0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/ServersPageFragment;->m0:I
 
     .line 9
     .line 10
@@ -112,7 +112,7 @@
 
     .line 33
     :pswitch_0
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/ServersPageFragment;->m0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/ServersPageFragment;->m0:I
 
     .line 34
     .line 35
@@ -172,7 +172,7 @@
 
     .line 58
     :pswitch_1
-    sget p1, Lcom/nezukosamp/launcher/MainActivity;->t:I
+    sget p1, Lcom/alyasamp/launcher/MainActivity;->t:I
 
     .line 59
     .line 60
@@ -232,7 +232,7 @@
 
     .line 83
     :pswitch_2
-    sget p1, Lcom/nezukosamp/launcher/MainActivity;->t:I
+    sget p1, Lcom/alyasamp/launcher/MainActivity;->t:I
 
     .line 84
     .line 85
@@ -292,7 +292,7 @@
 
     .line 108
     :pswitch_3
-    sget p1, Lcom/nezukosamp/launcher/MainActivity;->t:I
+    sget p1, Lcom/alyasamp/launcher/MainActivity;->t:I
 
     .line 109
     .line 110

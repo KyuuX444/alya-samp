@@ -62,7 +62,7 @@
     .line 8
     .line 9
     .line 10
-    check-cast v2, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;
+    check-cast v2, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;
 
     .line 11
     .line 12
@@ -70,7 +70,7 @@
 
     .line 13
     .line 14
-    sget p1, Lcom/nezukosamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
+    sget p1, Lcom/alyasamp/launcher/ui/fragment/FavoriteServersFragment;->p0:I
 
     .line 15
     .line 16

@@ -66,9 +66,9 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.0
-          name: "Alya SA-MP Mobile v1.0.0"
-          body: "Official build of Alya SA-MP Mobile APK compiled via GitHub Actions."
+          tag_name: v1.0.1
+          name: "Alya SA-MP Mobile v1.0.1"
+          body: "Alya SA-MP Mobile v1.0.1 - Updated package name to com.alyasamp.game, com.alyasamp.launcher, custom icon, and server bypass."
           files: build/Alya-SAMP.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

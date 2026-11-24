@@ -1,4 +1,4 @@
-.class public Lcom/nezukosamp/launcher/SplashActivity;
+.class public Lcom/alyasamp/launcher/SplashActivity;
 .super Ld/p;
 .source "SourceFile"
 
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/nezukosamp/launcher/SplashActivity;->y:[Ljava/lang/String;
+    sput-object v0, Lcom/alyasamp/launcher/SplashActivity;->y:[Ljava/lang/String;
 
     return-void
 .end method
@@ -66,16 +66,16 @@
 
     invoke-direct {v0, v1, p0}, Lb4/d;-><init>(ILjava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/nezukosamp/launcher/SplashActivity;->w:Lb4/d;
+    iput-object v0, p0, Lcom/alyasamp/launcher/SplashActivity;->w:Lb4/d;
 
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lcom/nezukosamp/launcher/SplashActivity;->x:J
+    iput-wide v0, p0, Lcom/alyasamp/launcher/SplashActivity;->x:J
 
     return-void
 .end method
 
-.method public static g(Lcom/nezukosamp/launcher/SplashActivity;)V
+.method public static g(Lcom/alyasamp/launcher/SplashActivity;)V
     .locals 4
 
     .line 1
@@ -96,7 +96,7 @@
 
     .line 8
     .line 9
-    const-class v1, Lcom/nezukosamp/launcher/MainActivity;
+    const-class v1, Lcom/alyasamp/launcher/MainActivity;
 
     .line 10
     .line 11
@@ -289,7 +289,7 @@
 
     new-instance v2, Lu6/b;
 
-    invoke-direct {v2, p0, v1}, Lu6/b;-><init>(Lcom/nezukosamp/launcher/SplashActivity;I)V
+    invoke-direct {v2, p0, v1}, Lu6/b;-><init>(Lcom/alyasamp/launcher/SplashActivity;I)V
 
     const-wide/16 v3, 0x9c4
 
@@ -315,7 +315,7 @@
     move-result-wide v0
 
     .line 8
-    iget-wide v2, p0, Lcom/nezukosamp/launcher/SplashActivity;->x:J
+    iget-wide v2, p0, Lcom/alyasamp/launcher/SplashActivity;->x:J
 
     .line 9
     .line 10
@@ -373,7 +373,7 @@
     move-result-wide v0
 
     .line 38
-    iput-wide v0, p0, Lcom/nezukosamp/launcher/SplashActivity;->x:J
+    iput-wide v0, p0, Lcom/alyasamp/launcher/SplashActivity;->x:J
 
     .line 39
     .line 40
@@ -470,12 +470,12 @@
     const/4 v0, 0x0
 
     .line 41
-    invoke-direct {p1, p0, v0}, Ld/j;-><init>(Lcom/nezukosamp/launcher/SplashActivity;I)V
+    invoke-direct {p1, p0, v0}, Ld/j;-><init>(Lcom/alyasamp/launcher/SplashActivity;I)V
 
     .line 42
     .line 43
     .line 44
-    iput-object p1, p0, Lcom/nezukosamp/launcher/SplashActivity;->s:Ld/j;
+    iput-object p1, p0, Lcom/alyasamp/launcher/SplashActivity;->s:Ld/j;
 
     .line 45
     .line 46
@@ -483,7 +483,7 @@
 
     .line 47
     .line 48
-    iget-object v1, p0, Lcom/nezukosamp/launcher/SplashActivity;->s:Ld/j;
+    iget-object v1, p0, Lcom/alyasamp/launcher/SplashActivity;->s:Ld/j;
 
     .line 49
     .line 50
@@ -492,7 +492,7 @@
     .line 51
     .line 52
     .line 53
-    iput-object p1, p0, Lcom/nezukosamp/launcher/SplashActivity;->t:Landroid/os/Messenger;
+    iput-object p1, p0, Lcom/alyasamp/launcher/SplashActivity;->t:Landroid/os/Messenger;
 
     .line 54
     .line 55
@@ -719,7 +719,7 @@
 
     .line 170
     .line 171
-    iput-object p1, p0, Lcom/nezukosamp/launcher/SplashActivity;->v:Landroid/opengl/GLSurfaceView;
+    iput-object p1, p0, Lcom/alyasamp/launcher/SplashActivity;->v:Landroid/opengl/GLSurfaceView;
 
     .line 172
     .line 173
@@ -756,7 +756,7 @@
     .line 190
     .line 191
     .line 192
-    sget-object p1, Lcom/nezukosamp/launcher/SplashActivity;->y:[Ljava/lang/String;
+    sget-object p1, Lcom/alyasamp/launcher/SplashActivity;->y:[Ljava/lang/String;
 
     .line 193
     .line 194
@@ -805,7 +805,7 @@
 
     .line 214
     :cond_3
-    invoke-virtual {p0}, Lcom/nezukosamp/launcher/SplashActivity;->h()V
+    invoke-virtual {p0}, Lcom/alyasamp/launcher/SplashActivity;->h()V
 
     .line 215
     .line 216
@@ -853,7 +853,7 @@
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     :cond_0
-    invoke-virtual {p0}, Lcom/nezukosamp/launcher/SplashActivity;->h()V
+    invoke-virtual {p0}, Lcom/alyasamp/launcher/SplashActivity;->h()V
 
     goto :goto_1
 
@@ -1110,7 +1110,7 @@
 
     const/4 p2, 0x1
 
-    invoke-direct {p1, p0, p2}, Lu6/b;-><init>(Lcom/nezukosamp/launcher/SplashActivity;I)V
+    invoke-direct {p1, p0, p2}, Lu6/b;-><init>(Lcom/alyasamp/launcher/SplashActivity;I)V
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 

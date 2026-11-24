@@ -4,15 +4,15 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/nezukosamp/launcher/UpdateActivity;
+.field public final synthetic a:Lcom/alyasamp/launcher/UpdateActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/nezukosamp/launcher/UpdateActivity;)V
+.method public constructor <init>(Lcom/alyasamp/launcher/UpdateActivity;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lu6/f;->a:Lcom/nezukosamp/launcher/UpdateActivity;
+    iput-object p1, p0, Lu6/f;->a:Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 2
     .line 3
@@ -54,7 +54,7 @@
     const/4 v6, 0x1
 
     .line 11
-    iget-object v7, v1, Lu6/f;->a:Lcom/nezukosamp/launcher/UpdateActivity;
+    iget-object v7, v1, Lu6/f;->a:Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 12
     .line 13
@@ -1427,7 +1427,7 @@
     .line 763
     .line 764
     :cond_4
-    iget-boolean v0, v7, Lcom/nezukosamp/launcher/UpdateActivity;->v:Z
+    iget-boolean v0, v7, Lcom/alyasamp/launcher/UpdateActivity;->v:Z
 
     .line 765
     .line 766
@@ -1443,7 +1443,7 @@
     move-result-object v0
 
     .line 772
-    iget-object v2, v7, Lcom/nezukosamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
+    iget-object v2, v7, Lcom/alyasamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
 
     .line 773
     .line 774
@@ -1452,7 +1452,7 @@
     .line 775
     .line 776
     :try_start_1
-    iget-object v2, v7, Lcom/nezukosamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
+    iget-object v2, v7, Lcom/alyasamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
 
     .line 777
     .line 778
@@ -1476,7 +1476,7 @@
     .line 785
     .line 786
     :goto_1
-    iput-boolean v6, v7, Lcom/nezukosamp/launcher/UpdateActivity;->v:Z
+    iput-boolean v6, v7, Lcom/alyasamp/launcher/UpdateActivity;->v:Z
 
     .line 787
     .line 788
@@ -1519,7 +1519,7 @@
     .line 808
     .line 809
     .line 810
-    iget-object v8, v1, Lu6/f;->a:Lcom/nezukosamp/launcher/UpdateActivity;
+    iget-object v8, v1, Lu6/f;->a:Lcom/alyasamp/launcher/UpdateActivity;
 
     .line 811
     .line 812
@@ -1534,11 +1534,11 @@
 
     .line 816
     .line 817
-    sget v0, Lcom/nezukosamp/launcher/UpdateActivity;->y:I
+    sget v0, Lcom/alyasamp/launcher/UpdateActivity;->y:I
 
     .line 818
     .line 819
-    invoke-virtual/range {v8 .. v13}, Lcom/nezukosamp/launcher/UpdateActivity;->g(ZJJ)V
+    invoke-virtual/range {v8 .. v13}, Lcom/alyasamp/launcher/UpdateActivity;->g(ZJJ)V
 
     .line 820
     .line 821
@@ -1547,7 +1547,7 @@
 
     .line 823
     .line 824
-    const-class v2, Lcom/nezukosamp/launcher/SplashActivity;
+    const-class v2, Lcom/alyasamp/launcher/SplashActivity;
 
     .line 825
     .line 826
@@ -1648,7 +1648,7 @@
     move-result-object v0
 
     .line 880
-    iget-object v2, v7, Lcom/nezukosamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
+    iget-object v2, v7, Lcom/alyasamp/launcher/UpdateActivity;->s:Landroid/os/Messenger;
 
     .line 881
     .line 882
@@ -1657,7 +1657,7 @@
     .line 883
     .line 884
     :try_start_2
-    iget-object v2, v7, Lcom/nezukosamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
+    iget-object v2, v7, Lcom/alyasamp/launcher/UpdateActivity;->t:Landroid/os/Messenger;
 
     .line 885
     .line 886

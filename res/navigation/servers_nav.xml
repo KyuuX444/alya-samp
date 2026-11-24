@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation android:id="@id/servers_nav" app:startDestination="@id/favorite_servers_fragment"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <fragment android:label="FavoriteServersFragment" android:name="com.nezukosamp.launcher.ui.fragment.FavoriteServersFragment" android:id="@id/favorite_servers_fragment" />
-    <fragment android:label="HostedServersFragment" android:name="com.nezukosamp.launcher.ui.fragment.HostedServersFragment" android:id="@id/hosted_servers_fragment" />
+    <fragment android:label="FavoriteServersFragment" android:name="com.alyasamp.launcher.ui.fragment.FavoriteServersFragment" android:id="@id/favorite_servers_fragment" />
+    <fragment android:label="HostedServersFragment" android:name="com.alyasamp.launcher.ui.fragment.HostedServersFragment" android:id="@id/hosted_servers_fragment" />
 </navigation>
