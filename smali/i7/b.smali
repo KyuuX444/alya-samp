@@ -1,0 +1,6 @@
+.class public interface abstract Li7/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ly6/a;

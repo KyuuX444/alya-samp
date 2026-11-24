@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/md_theme_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/search_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:hint="Search Servers" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:startIconDrawable="@drawable/ic_settings" app:startIconTint="@color/md_theme_onSurfaceVariant" style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/search_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="text" android:imeOptions="actionSearch" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/search_input_layout">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/servers_list" android:paddingBottom="100.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

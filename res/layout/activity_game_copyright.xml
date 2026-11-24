@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/copyright_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_5ssp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:gravity="start" android:id="@id/ahahaha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_7sdp" android:text="ahahaha" android:layout_alignParentTop="true" android:fontFamily="@font/gotham" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_11ssp" android:textStyle="bold" android:textColor="@color/md_theme_primary" android:gravity="end" android:id="@id/ahahaha2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_12sdp" android:text="ahahaha" android:layout_alignParentTop="true" android:fontFamily="@font/gotham" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

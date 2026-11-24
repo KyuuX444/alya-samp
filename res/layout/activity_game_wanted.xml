@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/wanted_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/wanted_stars_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_75sdp" android:layout_marginEnd="@dimen/_15sdp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/star_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_star" />
+            <ImageView android:id="@id/star_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_star" />
+            <ImageView android:id="@id/star_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_star" />
+            <ImageView android:id="@id/star_4" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_star" />
+            <ImageView android:id="@id/star_5" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_star" />
+            <ImageView android:id="@id/star_6" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_star" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

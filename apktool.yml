@@ -1,0 +1,63 @@
+version: 2.9.3
+apkFileName: 2cd515f9-8eb4-44cc-9177-18f0ce32df10.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 103
+  versionName: 1.0.3
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 8
+  firebase-analytics.properties: 8
+  firebase-annotations.properties: 8
+  firebase-installations-interop.properties: 8
+  firebase-installations.properties: 8
+  firebase-measurement-connector.properties: 8
+  kotlin-tooling-metadata.json: 8
+  play-services-ads-identifier.properties: 8
+  play-services-basement.properties: 8
+  play-services-measurement-api.properties: 8
+  play-services-measurement-base.properties: 8
+  play-services-measurement-impl.properties: 8
+  play-services-measurement-sdk-api.properties: 8
+  play-services-measurement-sdk.properties: 8
+  play-services-measurement.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  ch/qos/logback/classic/db/script/db2.sql: 8
+  ch/qos/logback/classic/db/script/h2.sql: 8
+  ch/qos/logback/classic/db/script/hsqldb.sql: 8
+  ch/qos/logback/classic/db/script/mssql.sql: 8
+  ch/qos/logback/classic/db/script/mysql.sql: 8
+  ch/qos/logback/classic/db/script/oracle.sql: 8
+  ch/qos/logback/classic/db/script/postgresql.sql: 8
+  ch/qos/logback/classic/db/script/sqllite.sql: 8
+  ch/qos/logback/classic/db/script/sybaseSqlAnywhere.sql: 8
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- ogg
+- res/font/museo_sans_cyrl_500.otf
+- res/font/museo_sans_cyrl_900.otf
+- res/font/museo_sans_cyrl_300.otf
+- res/font/museo_sans_cyrl_700.otf
+- res/font/museo_sans_cyrl_100.otf
+- res/font/roboto_medium.ttf
+- res/font/roboto_black.ttf
+- res/font/roboto_thin.ttf

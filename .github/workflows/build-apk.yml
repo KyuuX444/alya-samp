@@ -1,0 +1,72 @@
+name: Build Alya SA-MP APK
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build & Sign APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up Java JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Install Apktool & Build Tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y zipalign apksigner
+          mkdir -p $HOME/bin
+          curl -sLo $HOME/bin/apktool https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
+          curl -sLo $HOME/bin/apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v2.10.0/apktool_2.10.0.jar
+          chmod +x $HOME/bin/apktool $HOME/bin/apktool.jar
+          echo "$HOME/bin" >> $GITHUB_PATH
+
+      - name: Build APK with Apktool
+        run: |
+          mkdir -p build
+          apktool b . -o build/alya-unsigned.apk --use-aapt2
+
+      - name: Align and Sign APK
+        run: |
+          zipalign -v -p 4 build/alya-unsigned.apk build/Alya-SAMP-aligned.apk
+          keytool -genkeypair -v \
+            -keystore alya.keystore \
+            -alias alya \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 10000 \
+            -storepass alya123 \
+            -keypass alya123 \
+            -dname "CN=Alya SAMP, OU=Alya, O=Alya, L=Jakarta, ST=Jakarta, C=ID"
+          apksigner sign --ks alya.keystore --ks-key-alias alya --ks-pass pass:alya123 --key-pass pass:alya123 --out build/Alya-SAMP.apk build/Alya-SAMP-aligned.apk
+          apksigner verify build/Alya-SAMP.apk
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Alya-SAMP-APK
+          path: build/Alya-SAMP.apk
+          retention-days: 30
+
+      - name: Create GitHub Release
+        if: github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.0
+          name: "Alya SA-MP Mobile v1.0.0"
+          body: "Official build of Alya SA-MP Mobile APK compiled via GitHub Actions."
+          files: build/Alya-SAMP.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true

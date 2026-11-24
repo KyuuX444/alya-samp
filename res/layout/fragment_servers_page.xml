@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/md_theme_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="16.0dip" app:cardBackgroundColor="#ff1e1e1e" app:cardCornerRadius="16.0dip" app:cardElevation="0.0dip" app:strokeColor="#ff404040" app:strokeWidth="1.0dip">
+            <com.google.android.material.button.MaterialButtonToggleGroup android:id="@id/servers_toggle_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:checkedButton="@id/favorite_servers" app:selectionRequired="true" app:singleSelection="true" app:strokeWidth="0.0dip">
+                <com.google.android.material.button.MaterialButton android:textColor="@color/md_theme_onSurface" android:id="@id/favorite_servers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip" android:text="Favorites" style="@style/Widget.Material3.Button.TextButton" />
+                <com.google.android.material.button.MaterialButton android:textColor="@color/md_theme_onSurface" android:id="@id/hosted_servers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip" android:text="Hosted" style="@style/Widget.Material3.Button.TextButton" />
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+        </com.google.android.material.card.MaterialCardView>
+        <fragment android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/servers_nav_host_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" app:navGraph="@navigation/servers_nav" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
